@@ -54,7 +54,7 @@
     color: #fd5454;
   }
   
-  .fav {
+  .icon-delete, .icon-show {
     display: flex;
     text-align: center;
     height: 50px;

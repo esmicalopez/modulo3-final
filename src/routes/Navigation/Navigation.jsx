@@ -8,8 +8,7 @@ const Navigation = () => {
   const { currentUser, setCurrentUser } = useContext(UserContext);
 
   useEffect(() => {
-    const userStored = localStorage.getItem('currentUser')
-    //console.log({ userStored })
+    const userStored = localStorage.getItem("currentUser")
     if (userStored) {
       setCurrentUser(JSON.parse(userStored))
     }
