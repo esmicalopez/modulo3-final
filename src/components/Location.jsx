@@ -28,9 +28,7 @@ const Location = ({ location }) => {
         <div className="fav" onClick={handleDelete}>
           <BiTrash />
         </div>
-        {/* <div className="fav" onClick={handleDelete}>
-          <FaEdit/>
-        </div> */}
+
         <Link className='fav' to={`/location/${id}`}>
             <BiShow />
         </Link>
