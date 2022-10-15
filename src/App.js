@@ -23,8 +23,8 @@ function App() {
         </Route>
       </Routes>
       
-      <div className='container'><h2>Tarjetas de Usuario</h2></div>
-      <div className='grid-card'>
+{/*       <div className='container'><h2>Tarjetas de Usuario</h2></div>
+ */}      <div className='grid-card'>
         <h2>Tarjetas Provinciales</h2><br />
         <div className='container'><Tarjetas /></div>
         <h2>Tarjetas Nacionales</h2>

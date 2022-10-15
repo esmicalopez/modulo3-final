@@ -16,6 +16,7 @@ const Location = ({ location }) => {
   };
 
   return (
+    
     <div className="card-container" key={id}>
       <div className="location">
         <h3>{name}</h3>
@@ -25,12 +26,14 @@ const Location = ({ location }) => {
         <li>Velocidad del viento: {windSpeed} km/h</li>
       </div>
       <div className="location-actions">
-        <div className="icon-delete" onClick={handleDelete}>
-            <BiTrash />
-        </div>
-        <Link className="icon-show" to={`/location/${id}`}>
-            <BiShow />
-        </Link>
+      <div className="icon-delete" onClick={handleDelete}>
+          <BiTrash />
+      </div>
+      <Link className="icon-show" to={`/location/${id}`}>
+          <BiShow />
+      </Link>
+      
+        
       </div>
     </div>
   );

@@ -3,6 +3,12 @@
     flex-direction: column;
     align-items: center;
   }
+
+  .grid-card{
+    max-width: max-content;
+    margin-top: 11%;
+    margin: 0 auto;
+  }
   
   .location-form {
     display: flex;

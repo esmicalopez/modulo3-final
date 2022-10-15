@@ -3,8 +3,14 @@ header {
 }
 
 .main-container {
-  display: flex;
-  flex-direction: row;
+  max-width: max-content;
+  margin-top: 11%;
+  margin: 0 auto;
+}
+.grid1{
+  max-width: max-content;
+margin-top: 11%;
+margin: 0 auto;
 }
 
 header {

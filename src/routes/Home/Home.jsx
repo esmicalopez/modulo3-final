@@ -7,6 +7,7 @@ const Home = () => {
   const { locations } = useContext(LocationContext);
   return (
     <div className="main-container">
+      <h2>Tarjetas de Usuario</h2>
       <Locations locations={locations} />
     </div>
   );

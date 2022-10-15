@@ -25,7 +25,7 @@ export const Tarjeta = ({ id, name, latitud, longitud, temperatura, velocidad })
 
     return (
         <div className="card-container" key={id} id="Tarjeta">
-            <div className="icon-delete" onClick= {quitar}>
+            <div className="icon-delete1" onClick= {quitar}>
                 <FiXSquare />
             </div>
             <div className='card'>

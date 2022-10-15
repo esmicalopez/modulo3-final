@@ -54,7 +54,21 @@
     color: #fd5454;
   }
   
-  .icon-delete, .icon-show {
+  .icon-delete{
+    display: flex;
+    text-align: center;
+    height: 50px;
+    width: 50px;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #e9e9e9;
+    padding: 5px;
+    border-radius: 5px;
+    size: 40px;
+    transition: background-color 0.2s ease;
+  }
+
+  .icon-show {
     display: flex;
     text-align: center;
     height: 50px;
