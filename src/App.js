@@ -16,6 +16,7 @@ function App() {
   return (
     <div className='App'>
       <div className='name-page'>PRO-METEO</div>
+      <div> BUSCADOR </div>
       <Routes>
         <Route path='/' element={<Navigation />}>
           <Route index element={<Home />} />
@@ -25,13 +26,13 @@ function App() {
         </Route>
       </Routes>
       <div className='grid-card'>
-    <h2>Tarjetas Provinciales</h2><br />
-    <div className='container'><Tarjetas /></div>
-    <h2>Tarjetas Nacionales</h2>
-    <div className='container'><TarjetasN /></div>
-    <h2>Tarjetas Internacionales</h2>
-    <div className='container'><TarjetasI /></div>
-</div>
+        <h2>Tarjetas Provinciales</h2><br />
+        <div className='container'><Tarjetas /></div>
+        <h2>Tarjetas Nacionales</h2>
+        <div className='container'><TarjetasN /></div>
+        <h2>Tarjetas Internacionales</h2>
+        <div className='container'><TarjetasI /></div>
+      </div>
     </div>
   );
 }

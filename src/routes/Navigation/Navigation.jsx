@@ -1,7 +1,7 @@
 import { useContext, useEffect } from 'react';
 import { Link, Outlet } from 'react-router-dom';
 import { UserContext } from '../../context/UserContext';
-import climaLogo from '../../assets/logo.png';
+import climaLogo from '../../assets/LogoTitulo.png';
 import './Navigation.css';
 
 const Navigation = () => {
@@ -24,9 +24,6 @@ const Navigation = () => {
         <Link className='logo-container' to='/'>
           <img src={climaLogo} alt='Logo' className='logo' />
         </Link>
-        {/* <div className='name-page'>
-            <p>PROMETEO</p>
-        </div> */}
         <div className='nav-links-container'>
           {currentUser ? (
             <Link className='nav-link' to='/location/create'>

@@ -14,12 +14,13 @@ const LocationDisplay = () => {
     <div className="location-display-container">
       <div className="location-display-card">
         <h1 className="location-display-name">{location.name}</h1>
-        <li>lat: {location.latitud}</li>
-        <li>lon:{location.longitud}</li>
+        <li>Latitud: {location.latitud}</li>
+        <li>Longitud:{location.longitud}</li>
         <li>Temperatura :{location.temperature} C°</li>
         <li>Velocidad del viento : {location.windSpeed} km/h</li>
+        
         <Link className="btn-back" to="/">
-          Volver al Inicio
+          Volver
         </Link>
       </div>
     </div>
