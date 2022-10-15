@@ -57,7 +57,7 @@ export const TarjetaN = ({ id, name, latitud, longitud, temperatura, velocidad }
         }
         return (
             <div className="card-container" key={id} id="TarjetaN">
-                { <div className="icon-delete" onClick= {quitar}>
+                { <div className="icon-delete1" onClick= {quitar}>
                 <FiXSquare />
                 </div>}
                 <div className='card'>
@@ -88,7 +88,7 @@ export const TarjetaN = ({ id, name, latitud, longitud, temperatura, velocidad }
                 }
             return (
                 <div className="card-container" key={id} id="TarjetaI">
-                    {<div className="icon-delete" onClick= {quitar}>
+                    {<div className="icon-delete1" onClick= {quitar}>
                     <FiXSquare />
                     </div>}
                     <div className='card'>

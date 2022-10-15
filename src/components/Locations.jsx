@@ -3,6 +3,7 @@ import './Locations.css'
 
 const Locations = ({ locations }) => {
     return (
+
       <div className='grid1'>
         {locations.map((location) => (
           <Location key={location.id} location={location} /> 
